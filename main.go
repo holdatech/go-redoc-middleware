@@ -73,7 +73,7 @@ func NewHandler(opts Opts) func(http.Handler) http.Handler {
 }
 
 const (
-	redocLatest   = "https://cdn.jsdelivr.net/npm/redoc@2.0.0-alpha.17/bundles/redoc.standalone.js"
+	redocLatest   = "https://cdn.jsdelivr.net/npm/redoc@2.0.0-rc.9/bundles/redoc.standalone.js"
 	redocTemplate = `<!DOCTYPE html>
 <html>
   <head>
