@@ -30,7 +30,7 @@ func main() {
 	}
 
 	// Create the middleware with the specified options
-	redocMiddleware := redocmiddle.NewHandler()
+	redocMiddleware := redocmiddle.NewHandler(redocOpts)
 
 	router := chi.NewRouter()
 
