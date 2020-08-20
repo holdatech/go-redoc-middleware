@@ -1,4 +1,4 @@
-package redocmiddle // import "git.holda.io/golang/redoc-middleware"
+package redocmiddle // import "github.com/holdatech/go-redoc-middleware"
 
 import (
 	"bytes"
@@ -73,7 +73,7 @@ func NewHandler(opts Opts) func(http.Handler) http.Handler {
 }
 
 const (
-	redocLatest   = "https://cdn.jsdelivr.net/npm/redoc@2.0.0-rc.23/bundles/redoc.standalone.js"
+	redocLatest   = "https://cdn.jsdelivr.net/npm/redoc@2.0.0-rc.36/bundles/redoc.standalone.js"
 	redocTemplate = `<!DOCTYPE html>
 <html>
   <head>

@@ -1,3 +1,3 @@
-module git.holda.io/golang/redoc-middleware
+module github.com/holdatech/go-redoc-middleware
 
 go 1.12
